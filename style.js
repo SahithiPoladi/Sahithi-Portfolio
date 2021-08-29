@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$('.fa-star,.btn-primary').mouseenter(function(){
+		$(this).animate({
+			height:'+=10px'
+		});
+	});
+	$('.fa-star,.btn-primary').mouseleave(function(){
+		$(this).animate({
+			height:'-=10px'
+		});
+	});
+});
